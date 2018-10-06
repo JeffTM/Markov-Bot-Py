@@ -7,6 +7,9 @@ It consists of 3 main modules:
 2.	MarkovBot.py - Contains the MarkovBot class
 3.	Formatter.py - Contains functions for formatting a list of tokens into human readable text
 
+## Dependencies:
+All dependencies are included in the repo. Everything except Sample_GUI.py runs under standard Python 3.7.
+
 ## General usage:
 In general, the programmer should first tokenize the input text with one of the Tokenizer functions.
 Then the programmer should pass those tokens to the MarkovBot class through build or the constructor.
